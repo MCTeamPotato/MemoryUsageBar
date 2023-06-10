@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "memoryusagebar",
+  "version": "${version}",
+
+  "name": "MemoryUsageBar Mod",
+  "description": "MemoryUsageBar is a Fabric mod that displays the memory usage of Minecraft game on screen, helping you better understand the game performance.",
+  "authors": [
+    "MCTeamPotato",
+    "Awei"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/memoryusagebar/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "team.MCTeamPotato.MemoryUsageBar.MemoryUsageBar"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": ">=1.18.2 <1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
